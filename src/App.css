@@ -1,0 +1,44 @@
+.container {
+  background-color: #b7b1f2;
+  width: 70%;
+  margin: auto;
+  padding: 5rem;
+}
+label {
+  display: block;
+}
+input {
+  width: 90%;
+  margin: 2rem;
+  padding: 1rem;
+}
+.addBtn {
+  display: block;
+  margin: auto;
+  padding: 20px;
+  border: none;
+  border-radius: 0.6rem;
+  background-color: #ffdccc;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+li {
+  float: left;
+  margin: 5rem;
+}
+.delete-Btn {
+  /* display: block; */
+  /* margin: auto; */
+  padding: 20px;
+  border: none;
+  border-radius: 0.6rem;
+  background-color: #f00;
+}
+h1 {
+  font-family: cursive;
+  color: #ffdccc;
+  margin: auto;
+  width: 35%;
+}

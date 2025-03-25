@@ -5,10 +5,10 @@ import Tailwind from "./components/Tailwind.tsx";
 // import Tailwind from "./components/Tailwind";
 
 function App() {
-  document.title = "Local State";
+  document.title = "Local Storage";
   return (
     <>
-      <h1>Storing Items in Local State</h1>
+      <h1>Storing Items in Local Storage</h1>
       {/* <FirstProject />
       <Tailwind /> */}
       <FirstProject />

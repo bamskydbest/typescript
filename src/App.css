@@ -1,42 +1,45 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import "tailwindcss";
+.container {
+  background-color: #b7b1f2;
+  width: 70%;
+  margin: auto;
+  padding: 5rem;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+label {
+  display: block;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+input {
+  width: 90%;
+  margin: 2rem;
+  padding: 1rem;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.addBtn {
+  display: block;
+  margin: auto;
+  padding: 20px;
+  border: none;
+  border-radius: 0.6rem;
+  background-color: #ffdccc;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+  list-style-type: none;
+  overflow: hidden;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+li {
+  float: left;
+  margin: 5rem;
 }
-
-.card {
-  padding: 2em;
+.delete-Btn {
+  /* display: block; */
+  /* margin: auto; */
+  padding: 20px;
+  border: none;
+  border-radius: 0.6rem;
+  background-color: #f00;
 }
-
-.read-the-docs {
-  color: #888;
+h1 {
+  font-family: cursive;
+  color: #ffdccc;
+  margin: auto;
+  width: 35%;
 }
